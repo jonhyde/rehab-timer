@@ -155,9 +155,15 @@ const EXERCISES = {
   }
 };
 
+/* Updated 10 August 2026 ("Rehab Programme 2" in Move Health).
+   Reiss swapped two exercises to even the sessions up: Squat moved from B to A,
+   Monster walks moved from A to B. Same eight exercises, same sets, reps and rests.
+   Previous split, for reference:
+     A: sideways_walks, forward_back_walks, standing_side_lifts, hip_lifts
+     B: standing_band_steps, squats, single_leg_mini_squats, split_squats  */
 const SESSIONS = {
-  A: { title: 'Rehab A', order: ['sideways_walks','forward_back_walks','standing_side_lifts','hip_lifts'] },
-  B: { title: 'Rehab B', order: ['standing_band_steps','squats','single_leg_mini_squats','split_squats'] }
+  A: { title: 'Rehab A', order: ['sideways_walks','standing_side_lifts','squats','hip_lifts'] },
+  B: { title: 'Rehab B', order: ['standing_band_steps','forward_back_walks','single_leg_mini_squats','split_squats'] }
 };
 
 /* Mon A, Tue B, Thu A, Sat B. Everything else is a rest day.
